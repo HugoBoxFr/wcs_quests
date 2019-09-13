@@ -1,0 +1,166 @@
+.navbar{
+    padding: 0 1rem;
+}
+
+.navbar-brand{
+    margin-right: 0;
+}
+
+.navbar a{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+.carousel-item{
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+    position: relative;
+}
+
+.carousel_txt{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.title h3{
+    font-size: 1.45rem;
+    height: 80px;
+    line-height: 90px;
+    margin: 0 auto;
+}
+
+h3 span{
+    font-size: 1rem;
+}
+
+#fellows article{
+    margin: 10px 0;
+}
+
+#fellows article h5{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.fake_img{
+    margin: 5px;
+    width: calc(100% - 10px);
+    background-color: rgb(199, 199, 199);
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.dead{
+    background-color: grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.dead:hover p{
+    opacity: 0;
+}
+
+.dead:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+#fellows article .btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    top: 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+}
+
+#fellows article:hover .btn{
+    opacity: 1;
+}
+
+.fake_txt{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#contact .title h3{
+    margin-left: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+form button{
+    float: right;
+}
+
+footer{
+    background-color: grey;
+    padding: 40px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 768px){
+    #fellows .title h3{
+        text-align: center;
+        line-height: 20px;
+        padding-top: 28px;
+    }
+
+    h3 span{
+        display: block;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer ul{
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    html{
+        background-color: grey;
+    }
+
+    body{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
